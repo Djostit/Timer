@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void ClickButtonStart(View view) {
-        if(!isCheck){
+        if(!isCheck && !isRunning){
             seconds += Integer.parseInt(GetTimeInt(spinner_start.getSelectedItemPosition()));
         }
         isRunning = true;
