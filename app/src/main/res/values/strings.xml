@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="timer_default">00:00:00</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_reset">Reset</string>
+    <string name="textView_interval">Interval:</string>
+    <string name="textView_start_with">Start with:</string>
+    <string-array name="array_time">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+</resources>
