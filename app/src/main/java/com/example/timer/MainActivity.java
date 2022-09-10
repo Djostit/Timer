@@ -3,6 +3,7 @@ package com.example.timer;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -145,5 +146,11 @@ public class MainActivity extends AppCompatActivity {
         isRunning = false;
         isCheck = false;
         seconds = 0;
+    }
+
+    public void ClickButtonAnother(View view) {
+        isRunning = false;
+        Intent intent = new Intent(this, AnotherTimer.class);
+        startActivity(intent);
     }
 }

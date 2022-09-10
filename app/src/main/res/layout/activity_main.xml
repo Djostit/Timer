@@ -63,6 +63,8 @@
 
     <LinearLayout
         android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -71,15 +73,15 @@
         app:layout_constraintTop_toBottomOf="@id/linearLayoutOne">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_start"
             android:layout_gravity="center"
-            android:textSize="30sp"
+            android:textSize="36sp"
             android:onClick="ClickButtonStart"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_stop"
             android:layout_gravity="center"
@@ -87,12 +89,19 @@
             android:onClick="ClickButtonStop"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_reset"
             android:layout_gravity="center"
-            android:textSize="30sp"
+            android:textSize="36sp"
             android:onClick="ClickButtonReset"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_another_timer"
+            android:layout_gravity="center"
+            android:textSize="36sp"
+            android:onClick="ClickButtonAnother"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

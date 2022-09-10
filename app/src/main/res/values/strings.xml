@@ -6,11 +6,21 @@
     <string name="button_reset">Reset</string>
     <string name="textView_interval">Interval:</string>
     <string name="textView_start_with">Start with:</string>
+    <string name="go_another_timer">Go another timer</string>
+    <string name="textView_time">Time:</string>
+    <string name="textView_ur_time">Your time -</string>
     <string-array name="array_time">
         <item>1</item>
         <item>5</item>
         <item>10</item>
         <item>20</item>
         <item>30</item>
+    </string-array>
+    <string-array name="array_long_time">
+        <item>5</item>
+        <item>60</item>
+        <item>100</item>
+        <item>120</item>
+        <item>180</item>
     </string-array>
 </resources>
